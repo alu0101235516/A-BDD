@@ -1,2 +1,2 @@
-# A-BDD
-Repositorio de Administración de Bases de Datos
+# Repositorio de Administración de Bases de Datos
+### Adrián Hernández Suárez
