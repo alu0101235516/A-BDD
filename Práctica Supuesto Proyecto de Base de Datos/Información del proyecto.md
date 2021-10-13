@@ -1,4 +1,4 @@
-Tras la redacción del documento, tenemos que sacar los problemas clave o lo que dificulta el correcto desarrollo del agua y abastecimiento. Los problemas principales a los que buscar solución son que:
+El acceso al agua y al saneamiento ha estado presentes de forma permanente en la agenda de la cooperación internacional. Pero también ha sido un problema clave ya que 748 millones de personas no tienen acceso al agua potable y 2.500 millones no disponen de sistemas de saneamiento adecuados. Teniendo esto, sacamos dos problemas principales, los cuales son:
 
   - No hay acceso a agua potable.
   - No hay sistemas de saneamiento adecuados.
