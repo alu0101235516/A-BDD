@@ -3,7 +3,7 @@ El acceso al agua y al saneamiento ha estado presentes de forma permanente en la
   - No hay acceso a agua potable.
   - No hay sistemas de saneamiento adecuados.
 
-Para poder solucionar esto, tenemos que encontrar diversas soluciones dentro de lo que se pueda y con la ayuda de organizaciones, voluntarios o estudiantes de ingeniería que quieran apoyar el proyecto con nuevas ideas. Respecto a los puntos importantes o de interés, tenemos que encontrar un sistema que no sea susceptible a la contaminación o al rápido deterioro. 
+Se requerirá de la ayuda de organizaciones, voluntarios o estudiantes de ingeniería que quieran apoyar el proyecto con nuevas ideas. Respecto a los puntos importantes o de interés, tenemos que encontrar un sistema que no sea susceptible a la contaminación o al rápido deterioro. 
 
 Necesitaremos analizar la gente afectada, la cantidad de agua que cae en la zona, la cantidad de agua que se pueda extraer de la zona, gastos del proyecto, formas de almacenamiento. Optimizando todos los sistemas de saneamiento y revisando las condiciones geográficas.
 
