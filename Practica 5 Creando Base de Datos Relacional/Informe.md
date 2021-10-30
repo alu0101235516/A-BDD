@@ -39,3 +39,7 @@ La base de datos consta de una serie de tablas:
   * **PRODUCTOS_ID_Prod** (Producto que se compra)
   * Fecha (Fecha en la que se produce la venta)
   * Cantidad (Cantidad de producto que se vende)
+
+
+![Captura en MySQL Workbench, hacerla el martes]()
+
