@@ -128,25 +128,51 @@ CREATE TABLE IF NOT EXISTS VENTAS (
 Una vez creada la base de datos quedaria añadir los datos en las tablas
 
 ```sql
-INSERT INTO VIVEROS (ID_Viveros, LAT, LON, Tam_Vivero) VALUES ('VIV111', 16.7687, -4.67896, '20x50');
-INSERT INTO VIVEROS (ID_Viveros, LAT, LON, Tam_Vivero) VALUES ('VIV222', 18.1224, -11.42312, '30x20');
-INSERT INTO VIVEROS (ID_Viveros, LAT, LON, Tam_Vivero) VALUES ('VIV333', 21.5324, -9.43124, '15x50');
-INSERT INTO VIVEROS (ID_Viveros, LAT, LON, Tam_Vivero) VALUES ('VIV444', 8.2000, -3.42332, '35x40');
+INSERT INTO VIVEROS (ID_Viveros, LAT, LON, Tam_Vivero) VALUES ('VIV001', 16.7687, -4.67896, '20x50');
+INSERT INTO VIVEROS (ID_Viveros, LAT, LON, Tam_Vivero) VALUES ('VIV002', 18.1224, -11.42312, '30x20');
+INSERT INTO VIVEROS (ID_Viveros, LAT, LON, Tam_Vivero) VALUES ('VIV003', 21.5324, -9.43124, '15x50');
+INSERT INTO VIVEROS (ID_Viveros, LAT, LON, Tam_Vivero) VALUES ('VIV004', 8.2000, -3.42332, '35x40');
 
-INSERT INTO ZONAS (ID_Zona, Tipo_Zona, Tam_Zona, Stock_Prod, VIVEROS_ID_Viveros) VALUES ('Z1-111', 'Almacen', '20x25', '1120', 'VIV111');
-INSERT INTO ZONAS (ID_Zona, Tipo_Zona, Tam_Zona, Stock_Prod, VIVEROS_ID_Viveros) VALUES ('Z2-111', 'Exterior', '10x3', NULL, 'VIV111');
-INSERT INTO ZONAS (ID_Zona, Tipo_Zona, Tam_Zona, Stock_Prod, VIVEROS_ID_Viveros) VALUES ('Z3-111', 'Caja', '20x25', NULL, 'VIV111');
-INSERT INTO ZONAS (ID_Zona, Tipo_Zona, Tam_Zona, Stock_Prod, VIVEROS_ID_Viveros) VALUES ('Z1-222', 'Almacen', '10x20', '3230', 'VIV222');
-INSERT INTO ZONAS (ID_Zona, Tipo_Zona, Tam_Zona, Stock_Prod, VIVEROS_ID_Viveros) VALUES ('Z2-222', 'Exterior', '10x3', NULL, 'VIV222');
-INSERT INTO ZONAS (ID_Zona, Tipo_Zona, Tam_Zona, Stock_Prod, VIVEROS_ID_Viveros) VALUES ('Z3-222', 'Caja', '10x20', NULL, 'VIV222');
-INSERT INTO ZONAS (ID_Zona, Tipo_Zona, Tam_Zona, Stock_Prod, VIVEROS_ID_Viveros) VALUES ('Z1-333', 'Almacen', '10x20', '2500', 'VIV333');
-INSERT INTO ZONAS (ID_Zona, Tipo_Zona, Tam_Zona, Stock_Prod, VIVEROS_ID_Viveros) VALUES ('Z2-333', 'Exterior', '10x3', NULL, 'VIV333');
-INSERT INTO ZONAS (ID_Zona, Tipo_Zona, Tam_Zona, Stock_Prod, VIVEROS_ID_Viveros) VALUES ('Z3-333', 'Caja', '10x20', NULL, 'VIV333');
+INSERT INTO ZONAS (ID_Zona, Tipo_Zona, Tam_Zona, Stock_Prod, VIVEROS_ID_Viveros) VALUES ('Z1-001', 'Almacen', '20x25', 1120, 'VIV001');
+INSERT INTO ZONAS (ID_Zona, Tipo_Zona, Tam_Zona, Stock_Prod, VIVEROS_ID_Viveros) VALUES ('Z2-001', 'Exterior', '10x3', NULL, 'VIV001');
+INSERT INTO ZONAS (ID_Zona, Tipo_Zona, Tam_Zona, Stock_Prod, VIVEROS_ID_Viveros) VALUES ('Z3-001', 'Caja', '20x25', NULL, 'VIV001');
+INSERT INTO ZONAS (ID_Zona, Tipo_Zona, Tam_Zona, Stock_Prod, VIVEROS_ID_Viveros) VALUES ('Z1-002', 'Almacen', '10x20', 3230, 'VIV002');
+INSERT INTO ZONAS (ID_Zona, Tipo_Zona, Tam_Zona, Stock_Prod, VIVEROS_ID_Viveros) VALUES ('Z2-002', 'Exterior', '10x3', NULL, 'VIV002');
+INSERT INTO ZONAS (ID_Zona, Tipo_Zona, Tam_Zona, Stock_Prod, VIVEROS_ID_Viveros) VALUES ('Z3-002', 'Caja', '10x20', NULL, 'VIV002');
+INSERT INTO ZONAS (ID_Zona, Tipo_Zona, Tam_Zona, Stock_Prod, VIVEROS_ID_Viveros) VALUES ('Z1-003', 'Almacen', '10x20', 2500, 'VIV003');
+INSERT INTO ZONAS (ID_Zona, Tipo_Zona, Tam_Zona, Stock_Prod, VIVEROS_ID_Viveros) VALUES ('Z2-003', 'Exterior', '10x3', NULL, 'VIV003');
+INSERT INTO ZONAS (ID_Zona, Tipo_Zona, Tam_Zona, Stock_Prod, VIVEROS_ID_Viveros) VALUES ('Z3-003', 'Caja', '10x20', NULL, 'VIV003');
 
-INSERT INTO PRODUCTOS (ID_Prod, Stock, Nombre_Prod, ZONAS_ID_Zona) VALUES ('P00001', '320', 'Margaritas', 'Z1-111');
-INSERT INTO PRODUCTOS (ID_Prod, Stock, Nombre_Prod, ZONAS_ID_Zona) VALUES ('P00002', '130', 'Rosas Rojas', 'Z1-222');
-INSERT INTO PRODUCTOS (ID_Prod, Stock, Nombre_Prod, ZONAS_ID_Zona) VALUES ('P00003', '500', 'Rosas Blancas', 'Z1-333');
-INSERT INTO PRODUCTOS (ID_Prod, Stock, Nombre_Prod, ZONAS_ID_Zona) VALUES ('P00004', '650', 'Girasoles', 'Z1-111');
-INSERT INTO PRODUCTOS (ID_Prod, Stock, Nombre_Prod, ZONAS_ID_Zona) VALUES ('P00005', '430', 'Camelias', 'Z1-222');
-INSERT INTO PRODUCTOS (ID_Prod, Stock, Nombre_Prod, ZONAS_ID_Zona) VALUES ('P00006', '80', 'Tulipanes', 'Z1-333');
+INSERT INTO PRODUCTOS (ID_Prod, Stock, Nombre_Prod, ZONAS_ID_Zona) VALUES ('P00001', '320', 'Margaritas', 'Z1-001');
+INSERT INTO PRODUCTOS (ID_Prod, Stock, Nombre_Prod, ZONAS_ID_Zona) VALUES ('P00002', '130', 'Rosas Rojas', 'Z1-002');
+INSERT INTO PRODUCTOS (ID_Prod, Stock, Nombre_Prod, ZONAS_ID_Zona) VALUES ('P00003', '500', 'Rosas Blancas', 'Z1-003');
+INSERT INTO PRODUCTOS (ID_Prod, Stock, Nombre_Prod, ZONAS_ID_Zona) VALUES ('P00004', '650', 'Girasoles', 'Z1-001');
+INSERT INTO PRODUCTOS (ID_Prod, Stock, Nombre_Prod, ZONAS_ID_Zona) VALUES ('P00005', '430', 'Camelias', 'Z1-002');
+INSERT INTO PRODUCTOS (ID_Prod, Stock, Nombre_Prod, ZONAS_ID_Zona) VALUES ('P00006', '80', 'Tulipanes', 'Z1-003');
+
+INSERT INTO CLIENTES (ID_Cliente, Direccion) VALUES ('C00001', 'Calle Meneses 2');
+INSERT INTO CLIENTES (ID_Cliente, Direccion) VALUES ('C00002', 'Calle Carmen 4');
+INSERT INTO CLIENTES (ID_Cliente, Direccion) VALUES ('C00003', 'Calle Calderon 9');
+INSERT INTO CLIENTES (ID_Cliente, Direccion) VALUES ('C00004', 'Calle Manises 23');
+INSERT INTO CLIENTES (ID_Cliente, Direccion) VALUES ('C00005', 'Calle Mercado 45');
+INSERT INTO CLIENTES (ID_Cliente, Direccion) VALUES ('C00006', 'Calle Neura 1');
+
+INSERT INTO EMPLEADOS (ID_Empleado, ZONAS_ID_Zona) VALUES ('E00001', 'Z1-111');
+INSERT INTO EMPLEADOS (ID_Empleado, ZONAS_ID_Zona) VALUES ('E00002', 'Z2-111');
+INSERT INTO EMPLEADOS (ID_Empleado, ZONAS_ID_Zona) VALUES ('E00003', 'Z3-111');
+INSERT INTO EMPLEADOS (ID_Empleado, ZONAS_ID_Zona) VALUES ('E00004', 'Z1-222');
+INSERT INTO EMPLEADOS (ID_Empleado, ZONAS_ID_Zona) VALUES ('E00005', 'Z2-222');
+INSERT INTO EMPLEADOS (ID_Empleado, ZONAS_ID_Zona) VALUES ('E00006', 'Z3-222');
+INSERT INTO EMPLEADOS (ID_Empleado, ZONAS_ID_Zona) VALUES ('E00007', 'Z1-333');
+INSERT INTO EMPLEADOS (ID_Empleado, ZONAS_ID_Zona) VALUES ('E00008', 'Z2-333');
+INSERT INTO EMPLEADOS (ID_Empleado, ZONAS_ID_Zona) VALUES ('E00009', 'Z3-333');
+
+INSERT INTO VENTAS (EMPLEADOS_ID_Empleado, CLIENTES_ID_Cliente, PRODUCTOS_ID_Prod, Fecha, Cantidad) VALUES ('E00009', 'C00001', 'P00001', '01-02-2021', 12);
+INSERT INTO VENTAS (EMPLEADOS_ID_Empleado, CLIENTES_ID_Cliente, PRODUCTOS_ID_Prod, Fecha, Cantidad) VALUES ('E00002', 'C00002', 'P00004', '02-02-2021', 1);
+INSERT INTO VENTAS (EMPLEADOS_ID_Empleado, CLIENTES_ID_Cliente, PRODUCTOS_ID_Prod, Fecha, Cantidad) VALUES ('E00003', 'C00003', 'P00002', '03-02-2021', 20);
+INSERT INTO VENTAS (EMPLEADOS_ID_Empleado, CLIENTES_ID_Cliente, PRODUCTOS_ID_Prod, Fecha, Cantidad) VALUES ('E00005', 'C00004', 'P00003', '04-02-2021', 13);
+INSERT INTO VENTAS (EMPLEADOS_ID_Empleado, CLIENTES_ID_Cliente, PRODUCTOS_ID_Prod, Fecha, Cantidad) VALUES ('E00006', 'C00005', 'P00005', '05-02-2021', 5);
 ```
+
+Una vez introducido los datos, las tablas quedarian asi:
+
