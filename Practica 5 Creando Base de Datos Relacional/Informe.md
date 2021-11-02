@@ -176,24 +176,24 @@ INSERT INTO VENTAS (EMPLEADOS_ID_Empleado, CLIENTES_ID_Cliente, PRODUCTOS_ID_Pro
 
 Una vez introducido los datos, las tablas quedarian asi:
 
-![](/img/1.png)
+![](img/1.png)
 
 ---
 
-![](/img/2.png)
+![](img/2.png)
 
 ---
 
-![](/img/3.png)
+![](img/3.png)
 
 ---
 
-![](/img/4.png)
+![](img/4.png)
 
 ---
 
-![](/img/5.png)
+![](img/5.png)
 
 ---
 
-![](/img/6.png)
+![](img/6.png)
