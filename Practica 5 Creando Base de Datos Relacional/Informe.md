@@ -41,7 +41,7 @@ La base de datos consta de una serie de tablas:
   * Cantidad (Cantidad de producto que se vende)
 
 
-![Captura en MySQL Workbench, hacerla el martes]()
+![Captura en MySQL Workbench, hacerla el martes](https://github.com/alu0101235516/A-BDD/blob/main/Practica%205%20Creando%20Base%20de%20Datos%20Relacional/img/tabledraw.png?raw=true)
 
 Asi quedaria el esquema de la base de datos.
 
