@@ -1,6 +1,7 @@
 # Repositorio de Administración de Bases de Datos
 ### Adrián Hernández Suárez - alu010123516
 ### Noah Sanchez Geurts - alu0101134956
+### Alberto Ravelo Cordobés - alu0101136042
 
 ## _Índice prácticas:_
 
